@@ -77,10 +77,10 @@
                                     <a href="#" @click="editcropsaleModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    <a href="#" @click = "changeStatus(item.id)">
+                                    <a href="#" @click = "changeStatus(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-upload green"></i>
                                     </a>                                     
-                                    <a href="#" @click="deletecropSale(item.id)">
+                                    <a href="#" @click="deletecropSale(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -216,11 +216,11 @@
                                     <a href="#" @click="editsubcashcropsaleModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    <a href="#" @click = "changeStatus(item.id)">
+                                    <a href="#" @click = "changeStatus(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-upload green"></i>
                                     </a>                                    
                                     
-                                    <a href="#" @click="deletesubcashcropSale(item.id)">
+                                    <a href="#" @click="deletesubcashcropSale(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>

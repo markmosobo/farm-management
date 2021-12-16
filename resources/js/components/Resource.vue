@@ -65,8 +65,8 @@
                                     <a href="#" @click="editresourcepurchaseModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteResourcePurchase(item.id)">
+                                    <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteResourcePurchase(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
