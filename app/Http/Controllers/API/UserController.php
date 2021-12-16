@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Http\Resources\FarmerResource;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
