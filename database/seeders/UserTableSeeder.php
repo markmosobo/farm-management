@@ -23,15 +23,17 @@ class UserTableSeeder extends Seeder
         ]);
 
         User::create([
-            'name' => 'Isaac Muchogu',
-            'email' => 'muchogu@gmail.com',
+            'name' => 'User One',
+            'email' => 'userone@gmail.com',
             'password' => Hash::make('123456'),
+            'role' => 'farmer'
         ]);
    
         User::create([
-            'name' => 'Peter Mokosu',
-            'email' => 'mokosu@gmail.com',
+            'name' => 'User Two',
+            'email' => 'usertwo@gmail.com',
             'password' => Hash::make('123456'),
+            'role' => 'user'
         ]);        
     }
 }
