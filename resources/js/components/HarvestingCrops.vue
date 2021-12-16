@@ -60,8 +60,8 @@
                                     <a href="#" @click="editsubcropModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubHarvestingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubHarvestingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -197,8 +197,8 @@
                                     <a href="#" @click="editsubtransportModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubHarvestingTransportCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubHarvestingTransportCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -316,8 +316,8 @@
                                     <a href="#" @click="editsublabourModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubHarvestingLabourCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubHarvestingLabourCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -422,8 +422,8 @@
                                     <a href="#" @click="editsubothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubHarvestingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubHarvestingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -533,8 +533,8 @@
                                     <a href="#" @click="editcashcropModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecashHarvestingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecashHarvestingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -670,8 +670,8 @@
                                     <a href="#" @click="editcashtransportModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecashHarvestingTransportCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecashHarvestingTransportCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -789,8 +789,8 @@
                                     <a href="#" @click="editcashlabourModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecashHarvestingLabourCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecashHarvestingLabourCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -895,8 +895,8 @@
                                     <a href="#" @click="editcashothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecashHarvestingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecashHarvestingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1006,8 +1006,8 @@
                                     <a href="#" @click="editsubcashcropModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubcashHarvestingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubcashHarvestingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1143,8 +1143,8 @@
                                     <a href="#" @click="editsubcashtransportModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubcashHarvestingTransportCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubcashHarvestingTransportCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1262,8 +1262,8 @@
                                     <a href="#" @click="editsubcashlabourModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubcashHarvestingLabourCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubcashHarvestingLabourCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1368,8 +1368,8 @@
                                     <a href="#" @click="editsubcashothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletesubcashHarvestingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletesubcashHarvestingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>

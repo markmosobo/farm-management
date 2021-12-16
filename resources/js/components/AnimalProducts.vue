@@ -48,8 +48,8 @@
                                     <a href="#" @click="editcowmilkingdetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecowMilkingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecowMilkingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -151,8 +151,8 @@
                                     <a href="#" @click="editotheranimalmilkModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteotheranimalMilkingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteotheranimalMilkingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -267,8 +267,8 @@
                                     <a href="#" @click="editcowmilksaleModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletecowMilkSale(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletecowMilkSale(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -363,8 +363,8 @@
                                     <a href="#" @click="editotheranimalmilksaleModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteotheranimalMilkSale(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteotheranimalMilkSale(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -470,8 +470,8 @@
                                     <a href="#" @click="editanimalsaleModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletanimalSale(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteanimalSale(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -575,8 +575,8 @@
                                     <a href="#" @click="editanimalproductotheruseModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteanimalproductOtherUse(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteanimalproductOtherUse(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>

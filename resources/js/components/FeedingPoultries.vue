@@ -67,8 +67,8 @@
                                     <a href="#" @click="editgradedetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletegradeFeedingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletegradeFeedingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -192,8 +192,8 @@
                                     <a href="#" @click="editgradefeedcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletegradeFeedCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletegradeFeedCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -309,8 +309,8 @@
                                     <a href="#" @click="editgradeothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletegradeFeedingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletegradeFeedingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -418,8 +418,8 @@
                                     <a href="#" @click="editkienyejidetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteKienyejiFeedingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletekienyejiFeedingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -543,8 +543,8 @@
                                     <a href="#" @click="editkienyejifeedcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletekienyejiFeedingCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletekienyejiFeedingCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -660,8 +660,8 @@
                                     <a href="#" @click="editkienyejiothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteKienyejiFeedingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletekienyejiFeedingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -769,8 +769,8 @@
                                     <a href="#" @click="editimprovedkienyejidetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteimprovedkienyejiFeedingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteimprovedkienyejiFeedingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -894,8 +894,8 @@
                                     <a href="#" @click="editimprovedkienyejifeedcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteimprovedkienyejiFeedingCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteimprovedkienyejiFeedingCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1011,8 +1011,8 @@
                                     <a href="#" @click="editimprovedkienyejiothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteimprovedkienyejiFeedingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteimprovedkienyejiFeedingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1120,8 +1120,8 @@
                                     <a href="#" @click="editexoticdetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteexoticFeedingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteexoticFeedingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1245,8 +1245,8 @@
                                     <a href="#" @click="editexoticfeedcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteexoticFeedingCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteexoticFeedingCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1362,8 +1362,8 @@
                                     <a href="#" @click="editexoticothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deleteexoticFeedingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deleteexoticFeedingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1471,8 +1471,8 @@
                                     <a href="#" @click="edithybriddetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletehybridFeedingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletehybridFeedingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1596,8 +1596,8 @@
                                     <a href="#" @click="edithybridfeedcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletehybridFeedingCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletehybridFeedingCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1713,8 +1713,8 @@
                                     <a href="#" @click="edithybridothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletehybridFeedingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletehybridFeedingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>

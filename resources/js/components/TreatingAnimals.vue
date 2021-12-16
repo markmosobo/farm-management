@@ -64,8 +64,8 @@
                                     <a href="#" @click="editdomesticvaccinatingdetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletedomesticVaccinatingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletedomesticVaccinatingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -324,8 +324,8 @@
                                     <a href="#" @click="editdomesticvaccinecostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletedomesticVaccineCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletedomesticVaccineCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -448,8 +448,8 @@
                                     <a href="#" @click="editdomesticdrugcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletedomesticDrugCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletedomesticDrugCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -567,8 +567,8 @@
                                     <a href="#" @click="editdomesticothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletedomesticTreatingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletedomesticTreatingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -682,8 +682,8 @@
                                     <a href="#" @click="editpetvaccinatingdetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletepetVaccinatingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletepetVaccinatingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -817,8 +817,8 @@
                                     <a href="#" @click="editpetdetailModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletepetTreatingDetail(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletepetTreatingDetail(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -943,8 +943,8 @@
                                     <a href="#" @click="editpetvaccinecostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletepetVaccineCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletepetVaccineCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1067,8 +1067,8 @@
                                     <a href="#" @click="editpetdrugcostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletepetDrugCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletepetDrugCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>
@@ -1186,8 +1186,8 @@
                                     <a href="#" @click="editpetothercostModal(item)">
                                         <i class="fa fa-edit blue"></i>
                                     </a>
-                                    /
-                                    <a href="#" @click="deletepetTreatingOtherCost(item.id)">
+                                      <span v-show="$gate.isAdmin()">/</span>
+                                    <a href="#" @click="deletepetTreatingOtherCost(item.id)" v-show="$gate.isAdmin()">
                                         <i class="fa fa-trash red"></i>
                                     </a>
                                 </td>

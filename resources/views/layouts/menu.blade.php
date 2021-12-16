@@ -3,12 +3,13 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <router-link to="/home" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
-            </a>
+            </router-link to="/home">
+            @can('isAdmin')
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/dashboard" class="nav-link">
@@ -17,6 +18,7 @@
                 </router-link>
               </li>             
             </ul>
+            @endcan
           </li>
          
           <li class="nav-item">
@@ -124,6 +126,7 @@
             </router-link>
           </li>          
 
+@can('isAdmin')          
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-clipboard blue"></i>
@@ -173,15 +176,6 @@
           </li>          
 
           <li class="nav-item">
-            <router-link to="/profile" class="nav-link">
-              <i class="nav-icon fas fa-user"></i>
-              <p>
-               Profile
-              </p>
-            </router-link>
-          </li>
-
-          <li class="nav-item">
             <router-link to="/users" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
@@ -189,7 +183,15 @@
               </p>
             </router-link>
           </li>          
-
+@endcan
+          <li class="nav-item">
+            <router-link to="/profile" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+               Profile
+              </p>
+            </router-link>
+          </li>
           <li class="nav-item">
         <a href="#" class="nav-link" onclick="event.preventDefault();
           document.getElementById('logout-form').submit();">

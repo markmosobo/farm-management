@@ -47,6 +47,9 @@ const toast = Swal.mixin({
 
 window.toast = toast;
 
+import Gate from './gate';
+Vue.prototype.$gate = new Gate(window.user);
+
 import ProfitChart from './components/ProfitChart.vue'
 export default {
   components: {
