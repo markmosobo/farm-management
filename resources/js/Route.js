@@ -22,5 +22,5 @@ export default [
     { path: '/overallreports', component: require('./components/OverallReport.vue').default },
     { path: '/cropsales', component: require('./components/CropSale.vue').default },
     { path: '/users', component: require('./components/User.vue').default },
-    { path: '/home', component: require('./components/Home.vue').default },
+    { path: '/home', component: require('./components/ProfitChart.vue').default },
 ];
