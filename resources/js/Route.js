@@ -2,6 +2,7 @@ export default [
     { path: '/dashboard', component: require('./components/Dashboard.vue').default },
     { path: '/animals', component: require('./components/Animals.vue').default },
     { path: '/crops', component: require('./components/Crops.vue').default },
+    { path: '/preparingfarm', component: require('./components/PreparingFarm.vue').default }, 
     { path: '/plantingcrops', component: require('./components/PlantingCrops.vue').default }, 
     { path: '/weedingcrops', component: require('./components/WeedingCrops.vue').default }, 
     { path: '/harvestingcrops', component: require('./components/HarvestingCrops.vue').default }, 

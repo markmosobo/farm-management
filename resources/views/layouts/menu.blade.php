@@ -30,6 +30,12 @@
               <i class="right fas fa-angle-left"></i>
             </a>
             <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <router-link to="/preparingfarm" class="nav-link">
+                  <i class="fas fa-seedling nav-icon green"></i>
+                  <p>Preparing</p>
+                </router-link>
+              </li>
               <li class="nav-item">
                 <router-link to="/plantingcrops" class="nav-link">
                   <i class="fas fa-seedling nav-icon green"></i>

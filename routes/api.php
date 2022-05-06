@@ -29,6 +29,10 @@ Route::apiResources([
     'resourcepurchase' => API\ResourcePurchaseController::class,
     'resourcesale' => API\ResourceSaleController::class,
 
+    'subpreparingdetail' => API\SubPreparingDetailController::class,
+    'subpreparinglabourcost' => API\SubPreparingLabourCostController::class,
+    'subpreparingothercost' => API\SubPreparingOtherCostController::class,
+
     'subplantingdetail' => API\SubPlantingDetailController::class,
     'subplantinglabourcost' => API\SubPlantingLabourCostController::class,
     'subplantingfertilizercost' => API\SubPlantingFertilizerCostController::class,
