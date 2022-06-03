@@ -105,15 +105,15 @@ Project Link: [https://github.com/markmosobo/farm-management](https://github.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/markmosobo/farm-management.svg?style=for-the-badge
-[contributors-url]: https://github.com/markmosobo/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/markmosobo/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/markmosobo/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/markmosobo/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/markmosobo/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/markmosobo/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/markmosobo/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/markmosobo/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/markmosobo/Best-README-Template/blob/master/LICENSE.txt
+[contributors-url]: https://github.com/markmosobo/farm-management/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/markmosobo/farm-management.svg?style=for-the-badge
+[forks-url]: https://github.com/markmosobo/farm-management/network/members
+[stars-shield]: https://img.shields.io/github/stars/markmosobo/farm-management.svg?style=for-the-badge
+[stars-url]: https://github.com/markmosobo/farm-management/stargazers
+[issues-shield]: https://img.shields.io/github/issues/markmosobo/farm-management.svg?style=for-the-badge
+[issues-url]: https://github.com/markmosobo/farm-management/issues
+[license-shield]: https://img.shields.io/github/license/markmosobo/farm-management.svg?style=for-the-badge
+[license-url]: https://github.com/markmosobo/farm-management/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mark-mosobo
 [product-screenshot]: images/screenshot.png
