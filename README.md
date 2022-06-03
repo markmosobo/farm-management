@@ -60,7 +60,7 @@ _Below is an example of how you can instruct your audience on installing and set
    cp .env.example .env
    ```
 
-6. Run these commands separately
+6. Run each of these commands 
    ```sh
    php artisan key:generate
    ```
@@ -74,7 +74,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    php artisan serve
    ```  
-8. Login credentials (test)
+8. Login credentials (admin)
     admin@admin.com
     123456   
 <p align="right">(<a href="#top">back to top</a>)</p>
