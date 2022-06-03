@@ -35,6 +35,7 @@ The current package requirements are:
 
 - Laravel >= 6.x
 - PHP >= 7.2
+- Node JS >=10.0
 
 ### Installation
 
@@ -43,7 +44,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/markmosobo_/jackieokanya.git
+   git clone https://github.com/markmosobo_/farm-management.git
    ```
 3. Install composer dependencies
   ```sh
@@ -58,13 +59,16 @@ _Below is an example of how you can instruct your audience on installing and set
    cp .env.example .env
    ```
 
-6. Then we generate key with this command
+6. Run these commands separately
    ```sh
    php artisan key:generate
-   php artisan migrate
-   php artisan db:seed
    ```
-
+   ```sh
+   php artisan migrate
+   ```
+   ```sh
+   php artisan db:seed
+   ```   
 7. Finally
    ```sh
    php artisan serve
@@ -76,7 +80,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- Your Name - [@your_twitter](https://twitter.com/markmosobo) - email@example.com
  -->
-Project Link: [https://github.com/markmosobo/politico](https://github.com/markmosobo/politico)
+Project Link: [https://github.com/markmosobo/politico](https://github.com/markmosobo/farm-management)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
