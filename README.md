@@ -81,7 +81,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- Your Name - [@your_twitter](https://twitter.com/markmosobo) - email@example.com
  -->
-Project Link: [https://github.com/markmosobo/politico](https://github.com/markmosobo/farm-management)
+Project Link: [https://github.com/markmosobo/farm-management](https://github.com/markmosobo/farm-management)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
