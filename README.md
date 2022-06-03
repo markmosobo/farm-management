@@ -19,7 +19,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 Here’s what your completed application will look like:
-(https://user-images.githubusercontent.com/34887895/171822829-d8cae371-43a3-49e3-b9b6-078276b92c67.PNG)
+![farm](https://user-images.githubusercontent.com/34887895/171955472-bb520b79-4c5d-4464-bed3-37c52b4c6f32.PNG)
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
