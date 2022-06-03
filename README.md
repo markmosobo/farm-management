@@ -1,8 +1,3 @@
-# farm-management
-a web app to manage crops,poultry, animals and other farm resources plus corresponding finances.
-Here’s what your completed application will look like:
-
-![dashboard](https://user-images.githubusercontent.com/34887895/171822829-d8cae371-43a3-49e3-b9b6-078276b92c67.PNG)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -14,7 +9,8 @@ Here’s what your completed application will look like:
   <h3 align="center"> Larafarm</h3>
 
   <p align="center">
-    For a farmer bored with manual record keeping
+    a web app to manage crops,poultry, animals and other farm resources plus corresponding finances
+    especially for a farmer bored with manual record keeping
     <br />
 
   </p>
@@ -22,10 +18,9 @@ Here’s what your completed application will look like:
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![WhatsApp Image 2022-06-03 at 7 22 25 PM](https://user-images.githubusercontent.com/34887895/171923286-ee498357-f417-4dd5-9ce4-8ce1c17b2e47.jpeg)
+Here’s what your completed application will look like:
+[![WhatsApp Image 2022-06-03 at 7 22 25 PM](https://user-images.githubusercontent.com/34887895/171822829-d8cae371-43a3-49e3-b9b6-078276b92c67.PNG)
 ]]
-A simple campaign website to expand voter outreach and broaden contributions.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
