@@ -47,10 +47,10 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/markmosobo/farm-management.git
    ```
-3. Install composer dependencies
-  ```sh
+2. Install compoer dependencies
+   ```sh
    composer install
-  ```
+   ```
 4. Install NPM packages
    ```sh
    npm install
@@ -73,7 +73,10 @@ _Below is an example of how you can instruct your audience on installing and set
 7. Finally
    ```sh
    php artisan serve
-   ```   
+   ```  
+8. Login credentials (test)
+    admin@admin.com
+    123456   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
@@ -85,6 +88,3 @@ Project Link: [https://github.com/markmosobo/farm-management](https://github.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-Credentials to login
-admin@admin.com
-123456
