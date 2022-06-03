@@ -20,7 +20,7 @@
 ## About The Project
 Here’s what your completed application will look like:
 [![WhatsApp Image 2022-06-03 at 7 22 25 PM](https://user-images.githubusercontent.com/34887895/171822829-d8cae371-43a3-49e3-b9b6-078276b92c67.PNG)
-]]
+]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
