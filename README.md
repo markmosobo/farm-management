@@ -61,9 +61,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/markmosobo/farm-management.git
    ```
-2. Install compoer dependencies
+3. Install composer dependencies
    ```sh
    composer install
+   ```
+Alternatively,
+   ```sh
+   composer update
    ```
 4. Install NPM packages
    ```sh
