@@ -65,7 +65,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    composer install
    ```
-Alternatively,
+3. Alternatively, update composer dependencies
    ```sh
    composer update
    ```
