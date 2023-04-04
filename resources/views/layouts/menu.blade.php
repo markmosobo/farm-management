@@ -23,40 +23,34 @@
          
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-seedling green"></i>
+              <i class="nav-icon fas fa-seedling"></i>
               <p>
                 Manage Crops
               </p>
               <i class="right fas fa-angle-left"></i>
             </a>
             <ul class="nav nav-treeview">
-            <li class="nav-item">
-                <router-link to="/preparingfarm" class="nav-link">
-                  <i class="fas fa-seedling nav-icon green"></i>
-                  <p>Preparing</p>
-                </router-link>
-              </li>
               <li class="nav-item">
                 <router-link to="/plantingcrops" class="nav-link">
-                  <i class="fas fa-seedling nav-icon green"></i>
+                  <i class="fas fa-seedling nav-icon"></i>
                   <p>Planting</p>
                 </router-link>
               </li> 
               <li class="nav-item">
                 <router-link to="/weedingcrops" class="nav-link">
-                  <i class="fas fa-seedling nav-icon green"></i>
+                  <i class="fas fa-seedling nav-icon"></i>
                   <p>Weeding</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/harvestingcrops" class="nav-link">
-                  <i class="fas fa-seedling nav-icon green"></i>
+                  <i class="fas fa-seedling nav-icon"></i>
                   <p>Harvesting</p>
                 </router-link>
               </li> 
               <li class="nav-item">
                 <router-link to="/cropsales" class="nav-link">
-                  <i class="fas fa-money-bill nav-icon green"></i>
+                  <i class="fas fa-money-bill nav-icon"></i>
                   <p>Crop Sales</p>
                 </router-link>
               </li>                                                      
@@ -65,7 +59,7 @@
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-horse-head purple"></i>
+              <i class="nav-icon fas fa-horse-head"></i>
               <p>
                 Manage Animals
               </p>
@@ -74,58 +68,28 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/feedinganimals" class="nav-link">
-                  <i class="fas fa-horse-head nav-icon purple"></i>
+                  <i class="fas fa-horse-head nav-icon"></i>
                   <p>Feeds</p>
                 </router-link>
               </li> 
               <li class="nav-item">
                 <router-link to="/treatinganimals" class="nav-link">
-                  <i class="fas fa-horse-head nav-icon purple"></i>
+                  <i class="fas fa-horse-head nav-icon"></i>
                   <p>Treatment</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/animalproducts" class="nav-link">
-                  <i class="fas fa-horse-head nav-icon purple"></i>
+                  <i class="fas fa-horse-head nav-icon"></i>
                   <p>Animal Products</p>
                 </router-link>
               </li>                                        
             </ul>            
           </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-dove teal"></i>
-              <p>
-                Manage Poultry
-              </p>
-              <i class="right fas fa-angle-left"></i>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <router-link to="/feedingpoultries" class="nav-link">
-                  <i class="fas fa-dove nav-icon teal"></i>
-                  <p>Feeds</p>
-                </router-link>
-              </li> 
-              <li class="nav-item">
-                <router-link to="/treatingpoultries" class="nav-link">
-                  <i class="fas fa-dove nav-icon teal"></i>
-                  <p>Treatment</p>
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link to="/poultryproducts" class="nav-link">
-                  <i class="fas fa-egg nav-icon teal"></i>
-                  <p>Poultry Products</p>
-                </router-link>
-              </li>                                        
-            </ul>            
-          </li> 
           
           <li class="nav-item">
             <router-link to="/resources" class="nav-link">
-              <i class="nav-icon fas fa-suitcase orange"></i>
+              <i class="nav-icon fas fa-suitcase"></i>
               <p>
                Manage Resources
               </p>
@@ -135,7 +99,7 @@
 @can('isAdmin')          
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-clipboard blue"></i>
+              <i class="nav-icon fas fa-clipboard"></i>
               <p>
                 Reports
               </p>
@@ -144,37 +108,25 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/cropreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
+                  <i class="fas fa-clipboard nav-icon"></i>
                   <p>Crops Report</p>
                 </router-link>
               </li>             
               <li class="nav-item">
                 <router-link to="/animalreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
+                  <i class="fas fa-clipboard nav-icon"></i>
                   <p>Animals Report</p>
                 </router-link>
               </li>                 
               <li class="nav-item">
-                <router-link to="/poultryreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
-                  <p>Poultry Report</p>
-                </router-link>
-              </li> 
-              <li class="nav-item">
-                <router-link to="/eggreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
-                  <p>Egg Report</p>
-                </router-link>                
-              </li> 
-              <li class="nav-item">
                 <router-link to="/milkreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
+                  <i class="fas fa-clipboard nav-icon"></i>
                   <p>Milk Report</p>
                 </router-link>                
               </li>               
               <li class="nav-item">
                 <router-link to="/overallreports" class="nav-link">
-                  <i class="fas fa-clipboard nav-icon blue"></i>
+                  <i class="fas fa-clipboard nav-icon"></i>
                   <p>Overall Report</p>
                 </router-link>                
               </li>                  
@@ -201,7 +153,7 @@
           <li class="nav-item">
         <a href="#" class="nav-link" onclick="event.preventDefault();
           document.getElementById('logout-form').submit();">
-          <i class="nav-icon fas fa-power-off red"></i>
+          <i class="nav-icon fas fa-power-off"></i>
           <p>
             {{ __('Logout') }}
           </p>

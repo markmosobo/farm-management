@@ -64,7 +64,7 @@
 
         <div class="card">
             <div class="card-body">
-            <canvas id="profit-chart" :height="100" :width="370"></canvas>
+
             </div>
             <div class="card-footer">
                 <div class="row">
@@ -133,9 +133,7 @@
           }
         },     
         mounted() {
-            const ctx = document.getElementById('profit-chart');
-            new Chart(ctx, this.profitChartData);
-            this.loadInfo();
+            console.log();
         }
     }
 
