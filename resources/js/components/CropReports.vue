@@ -53,63 +53,7 @@
                         </li>
                     </ul>
                     </div>                                       
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2018 - 30 Jul, 2018</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Goal Completion</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Add Products to Cart
-                        <span class="float-right"><b>160</b>/200</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Complete Purchase
-                        <span class="float-right"><b>310</b>/400</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="float-right"><b>480</b>/800</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        Send Inquiries
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -188,63 +132,7 @@
                         </li>
                     </ul>
                     </div>                 
-                    <div class="row">                        
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{acreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{plantinglabourused}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Fertilizer</span>
-                        <span class="float-right"><b>{{prevalentfertilizer}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -323,63 +211,7 @@
                         </li>
                     </ul>
                     </div>                                       
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{acreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{weedinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Chemical</span>
-                        <span class="float-right"><b>{{prevalentchemical}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        Miscellaneous Costs
-                        <span class="float-right"><b>{{weedingmisccosts}}</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -458,63 +290,7 @@
                         </li>
                     </ul>
                     </div> 
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Harvested
-                        <span class="float-right"><b>{{acreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{harvestinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Transport Means</span>
-                        <span class="float-right"><b>{{prevalenttransportmeans}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -594,63 +370,7 @@
                         </li>
                     </ul>
                     </div>                 
-                    <div class="row">                        
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{subacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{subacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Acreage Harvested</span>
-                        <span class="float-right"><b>{{subacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -729,63 +449,7 @@
                         </li>
                     </ul>
                     </div>                                      
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{cashacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{cashacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Acreage Harvested</span>
-                        <span class="float-right"><b>{{cashacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -864,63 +528,7 @@
                         </li>
                     </ul>
                     </div> 
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{subcashacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{subcashacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Acreage Harvested</span>
-                        <span class="float-right"><b>{{subcashacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -999,63 +607,7 @@
                         </li>
                     </ul>
                     </div>                 
-                    <div class="row">                        
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{subacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{subplantinglabourused}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Fertilizer</span>
-                        <span class="float-right"><b>{{subprevalentfertilizer}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1134,63 +686,7 @@
                         </li>
                     </ul>
                     </div>                                      
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{cashacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{cashplantinglabourused}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Fertilizer</span>
-                        <span class="float-right"><b>{{cashprevalentfertilizer}}</b></span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1269,63 +765,7 @@
                         </li>
                     </ul>
                     </div>  
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Planted
-                        <span class="float-right"><b>{{subcashacreageplanted}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{subcashacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Acreage Harvested</span>
-                        <span class="float-right"><b>{{subcashacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1404,63 +844,7 @@
                         </li>
                     </ul>
                     </div>                                       
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{subacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{subweedinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Chemical</span>
-                        <span class="float-right"><b>{{subprevalentchemical}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Filled
-                        <span class="float-right"><b>0</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1539,63 +923,7 @@
                         </li>
                     </ul>
                     </div>                                       
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{cashacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{cashweedinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Chemical</span>
-                        <span class="float-right"><b>{{cashprevalentchemical}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Filled
-                        <span class="float-right"><b>0</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1674,63 +1002,7 @@
                         </li>
                     </ul>
                     </div>                                       
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2021 - 30 Jul, 2021</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Weeded
-                        <span class="float-right"><b>{{subcashacreageweeded}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{subcashweedinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Chemical</span>
-                        <span class="float-right"><b>{{subcashprevalentchemical}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Filled
-                        <span class="float-right"><b>0</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1809,63 +1081,7 @@
                         </li>
                     </ul>
                     </div> 
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Harvested
-                        <span class="float-right"><b>{{subacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{subharvestinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Transport Means</span>
-                        <span class="float-right"><b>{{subprevalenttransportmeans}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -1944,63 +1160,7 @@
                         </li>
                     </ul>
                     </div> 
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Harvested
-                        <span class="float-right"><b>{{cashacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{cashharvestinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Transport Means</span>
-                        <span class="float-right"><b>{{cashprevalenttransportmeans}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
@@ -2079,63 +1239,7 @@
                         </li>
                     </ul>
                     </div> 
-                    <div class="row">
-                    <div class="col-md-8">
-                        <p class="text-center">
-                        <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                        </p>
 
-                        <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <!-- Sales Chart Canvas -->
-                        <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 618px;" width="618" class="chartjs-render-monitor"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <p class="text-center">
-                        <strong>Crop Summary</strong>
-                        </p>
-
-                        <div class="progress-group">
-                        Acreage Harvested
-                        <span class="float-right"><b>{{subcashacreageharvested}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-primary" style="width: 80%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-
-                        <div class="progress-group">
-                        Labour Used
-                        <span class="float-right"><b>{{subcashharvestinglabourused}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-danger" style="width: 75%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        <span class="progress-text">Prevalent Transport Means</span>
-                        <span class="float-right"><b>{{subcashprevalenttransportmeans}}</b>/8</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-success" style="width: 60%"></div>
-                        </div>
-                        </div>
-
-                        <!-- /.progress-group -->
-                        <div class="progress-group">
-                        To Be Fiiled
-                        <span class="float-right"><b>250</b>/500</span>
-                        <div class="progress progress-sm">
-                            <div class="progress-bar bg-warning" style="width: 50%"></div>
-                        </div>
-                        </div>
-                        <!-- /.progress-group -->
-                    </div>
-                    <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
                   <div class="card-footer">
                     <div class="row">
                     <div class="col-sm-3 col-6">
