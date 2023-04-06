@@ -145,128 +145,10 @@
                     </div>
 
                     <div class="col-md-5">
-                        <div class="card collapsed-card">
-                        <div class="card-header">
-                            <h3 class="card-title"> Animal Feed Costs</h3>
-                            <div class="card-tools">
-                            <button type="button" class="btn btn-sm btn-primary" @click="domesticfeedcostModal">
-                                <i class="fa fa-plus-square"></i>
-                                Add New
-                            </button>
-                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                <i class="fas fa-plus"></i>
-                            </button>                  
-                            </div>                             
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                <th style="width:10px">Name</th>
-                                <th>Quantity</th>
-                                <th >Amount</th>
-                                <th>Modify</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr v-for="item in domesticfeedingcosts.data" :key="item.id">
-                                <td>
-                                    <span class="badge bg">{{item.feed_type | capitalize}}</span>
-                                </td>
-                                <td>{{item.quantity_bought}} </td>
-                                <td><span class="badge bg-warning">{{item.amount_paid}}</span></td>
-                                <td>                                 
-                                    <a href="#" @click="editdomesticfeedcostModal(item)">
-                                        <i class="fa fa-edit blue"></i>
-                                    </a>
-                                      <span v-show="$gate.isAdmin()">/</span>
-                                    <a href="#" @click="deletedomesticFeedCost(item.id)" v-show="$gate.isAdmin()">
-                                        <i class="fa fa-trash red"></i>
-                                    </a>
-                                </td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        </div>
-                        <!-- /.card-body -->
-
-                        <!-- Domestic Feed Cost Modal -->
-                        <div class="modal fade" id="domesticFeed" tabindex="-1" role="dialog" aria-labelledby="domesticFeed" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" v-show="!editmode">Create New Animal Feed Cost</h5>
-                                    <h5 class="modal-title" v-show="editmode">Edit Animal Feed Cost</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-
-                                <form @submit.prevent="editmode ? updatedomesticFeedCost() : createdomesticFeedCost()">
-                                    <div class="modal-body">
-                                        <div class="form-group">
-                                            <label>Type of Feed</label>  
-                                                    <input type="text" list="dfeeds" v-model="form.feed_type" id="feed_type"
-                                                    name="feed_type" class="form-control" :class="{ 'is-invalid': form.errors.has('feed_type') }" />
-                                                    <datalist id="dfeeds">
-                                                    <option value="">Select Feed Type</option>
-                                                    <option value="DAIRYMEAL">Dairymeal</option>
-                                                    <option value="NAPIER">Napier</option>
-                                                    </datalist>
-                                                    <div v-if="form.errors.has('feed_type')" v-html="form.errors.get('feed_type')" />
-                                        </div>                                        
-                                        <div class="form-group">
-                                            <label>Animal</label>
-                                            <select class="form-control" :class="{ 'is-invalid': form.errors.has('animal_id') }" v-model="form.animal_id">
-                                            <option value="">Select Animal</option>
-                                            <option 
-                                                v-for="item in domesticanimalslist" :key="item.id"
-                                                :value="item.id"
-                                                :selected="item.id == form.animal_id">{{ item.name }}</option>
-                                            </select>
-                                            <div v-if="form.errors.has('animal_id')" v-html="form.errors.get('animal_id')" />
-                                        </div>                                        
-                                        <div class="form-group">
-                                            <label>Date of Purchase</label>
-                                            <input v-model="form.date_of_purchase" type="date" name="date_of_purchase"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('date_of_purchase') }">
-                                                <div v-if="form.errors.has('date_of_purchase')" v-html="form.errors.get('date_of_purchase')" /> 
-                                        </div>  
-                                        <div class="form-group">
-                                            <label>Quantity Bought</label>
-                                            <input v-model="form.quantity_bought" type="text" name="quantity_bought" placeholder="approx quantity (e.g 1 sack)"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('quantity_bought') }">
-                                                <div v-if="form.errors.has('quantity_bought')" v-html="form.errors.get('quantity_bought')" /> 
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Amount Paid</label>
-                                            <input v-model="form.amount_paid" type="text" name="amount_paid"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('amount_paid') }">
-                                                <div v-if="form.errors.has('amount_paid')" v-html="form.errors.get('amount_paid')" /> 
-                                        </div>                                                                                                  
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button v-show="editmode" type="submit" class="btn btn-success">Update</button>
-                                        <button v-show="!editmode" type="submit" class="btn btn-primary">Create</button>
-                                    </div>
-                                </form>
-                                </div>
-                            </div>
-                        </div>                         
-                        <div class="card-footer clearfix">
-                        <ul class="pagination pagination-sm m-0 float-right">
-                        <pagination :data="domesticfeedingcosts" @pagination-change-page="getdomesticFeedCosts"></pagination>
-                        </ul>
-                        </div>
-                        </div>
-                        <!-- /.card -->                       
-
 
                         <div class="card collapsed-card">
                         <div class="card-header">
-                            <h3 class="card-title">Other Feeding Costs</h3>
+                            <h3 class="card-title">Feeding Costs</h3>
                             <div class="card-tools">
                             <button type="button" class="btn btn-sm btn-primary" @click="domesticothercostModal">
                                 <i class="fa fa-plus-square"></i>
@@ -313,8 +195,8 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" v-show="!editmode">Create New Feeding Other Cost</h5>
-                                    <h5 class="modal-title" v-show="editmode">Edit Feeding Other Cost</h5>
+                                    <h5 class="modal-title" v-show="!editmode">Create New Feeding Cost</h5>
+                                    <h5 class="modal-title" v-show="editmode">Edit Feeding Cost</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -493,129 +375,11 @@
 
                     </div>
 
-                    <div class="col-md-5">
-                        <div class="card collapsed-card">
-                        <div class="card-header">
-                            <h3 class="card-title"> Animal Feed Costs</h3>
-                            <div class="card-tools">
-                            <button type="button" class="btn btn-sm btn-primary" @click="petfeedcostModal">
-                                <i class="fa fa-plus-square"></i>
-                                Add New
-                            </button>
-                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                <i class="fas fa-plus"></i>
-                            </button>                  
-                            </div>                             
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                <th style="width:10px">Name</th>
-                                <th>Quantity</th>
-                                <th >Amount</th>
-                                <th>Modify</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr v-for="item in petfeedingcosts.data" :key="item.id">
-                                <td>
-                                    <span class="badge bg">{{item.feed_type | capitalize}}</span>
-                                </td>
-                                <td>{{item.quantity_bought}} </td>
-                                <td><span class="badge bg-warning">{{item.amount_paid}}</span></td>
-                                <td>                                 
-                                    <a href="#" @click="editpetfeedcostModal(item)">
-                                        <i class="fa fa-edit blue"></i>
-                                    </a>
-                                      <span v-show="$gate.isAdmin()">/</span>
-                                    <a href="#" @click="deletepetFeedCost(item.id)" v-show="$gate.isAdmin()">
-                                        <i class="fa fa-trash red"></i>
-                                    </a>
-                                </td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        </div>
-                        <!-- /.card-body -->
-
-                        <!-- pet Feed Cost Modal -->
-                        <div class="modal fade" id="petFeed" tabindex="-1" role="dialog" aria-labelledby="petFeed" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" v-show="!editmode">Create New Animal Feed Cost</h5>
-                                    <h5 class="modal-title" v-show="editmode">Edit Animal Feed Cost</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-
-                                <form @submit.prevent="editmode ? updatepetFeedingCost() : createpetFeedingCost()">
-                                    <div class="modal-body">
-                                        <div class="form-group">
-                                            <label>Type of Feed</label>  
-                                                    <input type="text" list="petfeeds" v-model="form.feed_type" id="feed_type"
-                                                    name="feed_type" class="form-control" :class="{ 'is-invalid': form.errors.has('feed_type') }">
-                                                    <datalist id="petfeeds">
-                                                    <option value="">Select Feed Type</option>
-                                                    <option value="BONES">BONES</option>
-                                                    <option value="MILK">MILK</option>
-                                                    </datalist>
-                                                    <div v-if="form.errors.has('feed_type')" v-html="form.errors.get('feed_type')" />
-                                        </div>                                        
-                                        <div class="form-group">
-                                            <label>Animal to Feed</label>
-                                            <select class="form-control" :class="{ 'is-invalid': form.errors.has('animal_id') }" v-model="form.animal_id">
-                                            <option value="">Select Animal</option>
-                                            <option 
-                                                v-for="item in petanimalslist" :key="item.id"
-                                                :value="item.id"
-                                                :selected="item.id == form.animal_id">{{ item.name }}</option>
-                                            </select>
-                                            <div v-if="form.errors.has('animal_id')" v-html="form.errors.get('animal_id')" />
-                                        </div>                                       
-                                        <div class="form-group">
-                                            <label>Date of Purchase</label>
-                                            <input v-model="form.date_of_purchase" type="date" name="date_of_purchase"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('date_of_purchase') }">
-                                                <div v-if="form.errors.has('date_of_purchase')" v-html="form.errors.get('date_of_purchase')" /> 
-                                        </div>  
-                                        <div class="form-group">
-                                            <label>Quantity Bought</label>
-                                            <input v-model="form.quantity_bought" type="text" name="quantity_bought" placeholder="approx quantity (e.g 1 sack)"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('quantity_bought') }">
-                                                <div v-if="form.errors.has('quantity_bought')" v-html="form.errors.get('quantity_bought')" /> 
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Amount Paid</label>
-                                            <input v-model="form.amount_paid" type="text" name="amount_paid"
-                                                class="form-control" :class="{ 'is-invalid': form.errors.has('amount_paid') }">
-                                                <div v-if="form.errors.has('amount_paid')" v-html="form.errors.get('amount_paid')" /> 
-                                        </div>                                                                                                  
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button v-show="editmode" type="submit" class="btn btn-success">Update</button>
-                                        <button v-show="!editmode" type="submit" class="btn btn-primary">Create</button>
-                                    </div>
-                                </form>
-                                </div>
-                            </div>
-                        </div>                         
-                        <div class="card-footer clearfix">
-                        <ul class="pagination pagination-sm m-0 float-right">
-                        <pagination :data="petfeedingcosts" @pagination-change-page="getpetFeedCosts"></pagination>
-                        </ul>
-                        </div>
-                        </div>
-                        <!-- /.card -->                       
-
+                    <div class="col-md-5">                      
 
                         <div class="card collapsed-card">
                         <div class="card-header">
-                            <h3 class="card-title">Other Feeding Costs</h3>
+                            <h3 class="card-title">Feeding Costs</h3>
                             <div class="card-tools">
                             <button type="button" class="btn btn-sm btn-primary" @click="petothercostModal">
                                 <i class="fa fa-plus-square"></i>
@@ -662,8 +426,8 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" v-show="!editmode">Create New Feeding Other Cost</h5>
-                                    <h5 class="modal-title" v-show="editmode">Edit Feeding Other Cost</h5>
+                                    <h5 class="modal-title" v-show="!editmode">Create New Feeding Cost</h5>
+                                    <h5 class="modal-title" v-show="editmode">Edit Feeding Cost</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
