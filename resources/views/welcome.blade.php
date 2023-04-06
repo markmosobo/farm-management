@@ -61,9 +61,15 @@
                               <li class="nav-item active">
                                  <a class="nav-link" href="#"> About  </a>
                               </li>
+                              @guest
                               <li class=" d_none get_btn">
                                  <a  href="{{route('login')}}">Login</a>
                               </li>
+                              @else
+                              <li class=" d_none get_btn">
+                                 <a  href="{{url('/home')}}">Home</a>
+                              </li>
+                              @endguest
                            </ul>
                         </div>
                      </nav>
