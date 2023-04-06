@@ -13,6 +13,10 @@ class ResourceController extends Controller
         return Resource::latest()->with('owner')->paginate(5);
     }
 
+    public function noofresources(){
+        return Resource::all()->count();
+    } 
+
     public function list()
     {
 

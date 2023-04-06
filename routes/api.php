@@ -203,6 +203,8 @@ Route::get('subcroplist',[API\CropController::class,'list']);
 Route::get('cashcroplist',[API\CropController::class,'listcash']);
 Route::get('subcashcroplist',[API\CropController::class,'listsubcash']);
 Route::get('cropsno',[API\CropController::class,'noofcrops']);
+Route::get('resourcesno',[API\ResourceController::class,'noofresources']);
+Route::get('usersno',[API\UserController::class,'noofusers']);
 
 Route::get('gradepoultrieslist',[API\PoultryController::class,'list']);
 Route::get('kienyejipoultrieslist',[API\PoultryController::class,'listkienyeji']);
@@ -238,6 +240,7 @@ Route::get('milkanimalmilksales/{id}',[API\MilkReportController::class,'milkanim
 Route::get('litresproduced',[API\MilkReportController::class,'litre']);
 Route::get('litressold',[API\MilkReportController::class,'litresold']);
 Route::get('generalmilksales',[API\MilkReportController::class,'milksale']);
+Route::get('animalsno',[API\AnimalController::class,'noofanimals']);
 
 Route::get('subplantingcosts/{id}',[API\CropReportController::class,'subplantingcost']);
 Route::get('subfertilizercosts/{id}',[API\CropReportController::class,'subfertilizercost']);

@@ -15,6 +15,10 @@ class UserController extends Controller
         return FarmerResource::collection($userslist);
     }
 
+    public function noofusers(){
+        return User::all()->count();
+    } 
+
     public function index(){
         return User::latest()->paginate(5);
     }

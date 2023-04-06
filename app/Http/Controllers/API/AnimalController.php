@@ -12,6 +12,10 @@ class AnimalController extends Controller
         return Animal::latest()->with('owner')->paginate(5);
     }
 
+    public function noofanimals(){
+        return Animal::all()->count();
+    } 
+
     public function list(){
         return Animal::latest()->where('type','=','domestic')->paginate(10);
     }

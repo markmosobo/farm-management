@@ -3,12 +3,12 @@
         <div class="row mt-3">
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
-              <span class="info-box-icon bg-info elevation-1"><i class="fas fa-seedling"></i></span>
+              <span class="info-box-icon elevation-1"><i class="fas fa-seedling"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Crops</span>
                 <span class="info-box-number">
-                  10
+                  {{allcrops}}
                 </span>
               </div>
               <!-- /.info-box-content -->
@@ -18,11 +18,11 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-horse-head"></i></span>
+              <span class="info-box-icon elevation-1"><i class="fas fa-horse-head"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Animals</span>
-                <span class="info-box-number">41,410</span>
+                <span class="info-box-number">{{allanimals}}</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -35,11 +35,11 @@
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-success elevation-1"><i class="fas fa-suitcase"></i></span>
+              <span class="info-box-icon elevation-1"><i class="fas fa-suitcase"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Resources</span>
-                <span class="info-box-number">760</span>
+                <span class="info-box-number">{{allresources}}</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -48,11 +48,11 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-seedling"></i></span>
+              <span class="info-box-icon elevation-1"><i class="fas fa-users"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Users</span>
-                <span class="info-box-number">2,000</span>
+                <span class="info-box-number">{{allusers}}</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -118,7 +118,11 @@
           profitChartData: profitChartData,
           totalrevenue: [],
           totalcosts: [],
-          totalprofit: []
+          totalprofit: [],
+          allcrops: [],
+          allanimals: [],
+          allresources: [],
+          allusers: []
          }
         },  
         methods: {
@@ -128,11 +132,24 @@
                 });
                 axios.get('api/allcosts').then(({data}) => {
                     this.totalcosts = data
+                }); 
+                axios.get('api/cropsno').then(({data}) => {
+                    this.allcrops = data
+                }); 
+                axios.get('api/animalsno').then(({data}) => {
+                    this.allanimals = data
+                });
+                axios.get('api/resourcesno').then(({data}) => {
+                    this.allresources = data
+                });
+                axios.get('api/usersno').then(({data}) => {
+                    this.allusers = data
                 });            
           }
         },     
         mounted() {
             console.log();
+            this.loadInfo();
         }
     }
 
