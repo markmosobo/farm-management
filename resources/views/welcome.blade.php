@@ -81,7 +81,6 @@
                <div class="col-md-12 ">
                   <div class="text-bg">
                      <h1>{{config('app.name')}}</h1>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
                      <!-- <a href="#">Discover</a> -->
                   </div>
                </div>
@@ -91,7 +90,7 @@
       <!-- end banner -->
 
       <!-- about -->
-      <div class="about">
+      <div class="about" id="about">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -113,8 +112,8 @@
                                  <div class="row">
                                     <div class="col-md-12">
                                        <div class="test_box">
-                                          <h4>jhone Du</h4>
-                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                          <h4>MISSION</h4>
+                                          <p>Our mission is to empower small farmers to produce healthy, nutritious crops for their local communities and also for the globe. We aim to create sustainable initiatives and long-term partnerships with our farmers; providing constant support and assistance, financially and technically.</p>
                                        </div>
                                     </div>
                                  </div>
