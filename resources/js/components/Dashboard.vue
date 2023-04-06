@@ -216,58 +216,7 @@
             </div>
             <!-- /.card -->
 
-            <div class="card collapsed-card">
-              <div class="card-header">
-                <h3 class="card-title">Configure Poultry</h3>
-                <div class="card-tools">
-                  <button type="button" class="btn btn-sm btn-primary" @click="poultryModal">
-                      <i class="fa fa-plus-square"></i>
-                      Add New
-                  </button> 
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                    <i class="fas fa-plus"></i>
-                  </button>                                      
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body p-0">
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th style="width: 10px">#</th>
-                      <th>Name</th>
-                      <th>Type</th>
-                      <th style="width: 40px">Modify</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="poultry in poultries.data" :key="poultry.id">
-                      <td>{{poultry.id}}</td>
-                      <td>{{poultry.name}}</td>
-                      <td>
-                          {{poultry.type}}
-                      </td>
-                      <td>                        
-                        <a href="#" @click="editpoultryModal(poultry)">
-                            <i class="fa fa-edit blue"></i>
-                        </a>
-                        /
-                        <a href="#" @click="deletePoultry(poultry.id)">
-                            <i class="fa fa-trash red"></i>
-                        </a>
-                      </td> 
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="card-footer">
-                  <ul class="pagination pagination-sm m-0 float-right">
-                  <pagination :data="poultries" @pagination-change-page="getPoultries"></pagination>
-                  </ul>
-              </div>               
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
+            
           </div>
           <!-- /.col -->
         </div>
